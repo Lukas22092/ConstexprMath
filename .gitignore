@@ -1,0 +1,32 @@
+# Object files
+*.o
+*.obj
+*.lo
+
+# macOS specific
+.DS_Store
+*.DS_Store
+._*
+
+# Build directories
+build/
+dist/
+*.dSYM/  # macOS debug symbols
+
+# Compiled binaries
+*.out
+*.exe
+*.a
+*.lib
+*.dylib
+*.so
+
+# Dependency directories
+deps/
+vendor/
+
+# IDE files (optional but recommended)
+.vscode/
+.idea/
+*.swp
+*~
