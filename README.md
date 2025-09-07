@@ -22,8 +22,8 @@ Currently available Functions
 
 ## Requirements
 
-C++20 compatible compiler
-Standard Library headers: 
+- C++20 compatible compiler
+- Standard Library headers: 
 ```cpp
 <type_traits>, <concepts>, <array>, <algorithm>
 ```
@@ -54,11 +54,12 @@ Standard Library headers:
 
 ```
 ## Type Requirements
-Variadic functions require all arguments to be arithmetic types
+- Variadic functions require all arguments to be arithmetic types
 
-Container functions require containers that:
+- Container functions require containers that:
     - Have begin() and end() methods
     - Contain arithmetic types
     - Are not arithmetic types themselves
 ## Supported containers
-`std::array`, `std::vector`(generally speaking std::vector is not a constexpr container, so be carful using it if you want constexpr calculations)
+`std::array`, `std::vector`<br>
+(generally speaking std::vector is not a constexpr container, so be carful using it if you want constexpr calculations)
