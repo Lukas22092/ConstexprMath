@@ -12,18 +12,21 @@ A header-only C++ library providing compile-time mathematical operations that wo
 Currently available Functions
 
 ## Available Methods
-`sum()` - Calculate the sum of values
-`abs()` - Get absolute values
-`min()` - Find the minimum value
-`max()` - Find the maximum value
-`mean()` - Calculate the arithmetic mean
-`variance()` - Calculate the variance
-`dot()` - Calculate the dot product of two containers with  
+- `sum()` - Calculate the sum of values
+- `abs()` - Get absolute values
+- `min()` - Find the minimum value
+- `max()` - Find the maximum value
+- `mean()` - Calculate the arithmetic mean
+- `variance()` - Calculate the variance
+- `dot()` - Calculate the dot product of two containers with  
 
 ## Requirements
 
 C++20 compatible compiler
-Standard Library headers: <type_traits>, <concepts>, <array>, <algorithm>
+Standard Library headers: 
+```cpp
+<type_traits>, <concepts>, <array>, <algorithm>
+```
 
 
 
