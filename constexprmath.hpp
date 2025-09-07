@@ -23,7 +23,7 @@ template<typename Container>
 concept ArithmeticContainer = requires(Container c) {
     requires !std::is_arithmetic_v<Container>; // Not an arithmetic type itself
     requires requires { c.begin(); c.end(); }; // Has begin/end 
-    requires std::is_arithmetic_v<std::decay_t<decltype(*c.begin())>>; 
+    requires std::is_arithmetic_v<std::decay_t<decltype(*c.begin())>>;  //first element is arithmetic
     };
 
 
