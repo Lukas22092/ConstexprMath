@@ -4,10 +4,10 @@ A header-only C++ library providing compile-time mathematical operations that wo
 ## Features
 
 
-- **Compile-time operations:** All functions are `constexpr` and can be evaluated at compile time
-- **two interfaces:** Support for both variadic arguments and container-based inputs
-- **Type-safe:** Uses C++20 concepts for compile-time type checking
-- **Header-only**
+-  All functions are `constexpr` and can be evaluated at compile time
+-  Support for both variadic arguments and container-based inputs
+-  Uses C++20 concepts for compile-time type checking
+- 
 ## Installation
 
 Currently available Functions
@@ -19,7 +19,7 @@ Currently available Functions
 - `max()` - Find the maximum value
 - `mean()` - Calculate the arithmetic mean
 - `variance()` - Calculate the variance
-- `dot()` - Calculate the dot product of two containers with  
+- `dot()` - Calculate the dot product of two containers   
 
 ## Requirements
 
