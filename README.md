@@ -64,3 +64,14 @@ Currently available Functions
 ## Supported containers
 `std::array`, `std::vector`<br>
 (generally speaking std::vector is not a constexpr container, so be carful using it if you want constexpr calculations)
+
+## what i learned
+* not all containers can be used at compile time
+* basics of concepts type traits
+* decltype is useful to give your types custom names
+* decay_t can be used to remove constness/refererences
+* decay_t is just an alias for accessing the member function std::decay::type
+* conexpr calculations
+* auto decays to int if not specified differently
+* usage of static cast and static assert
+* basic usage of variadic templates/fold expressions
